@@ -9,9 +9,7 @@ two arrays and a non-negative integer. This part of the exercise deals
 with the fact that we cannot assume the validity of the user input anymore,
 so we had to parse the input ourselves.
 
-I made use of the code that was given to us on Moodle to accept input
-using fgets and strtok to iterate over the elements from the input, seperated
-by space/linebreak/etc. In each iteration I did the following:
+In each iteration I did the following:
 1) Adjusted counter of elements we received in the input.
 2) Made sure we didn't exceed 100 elements.
 3) Checked if the element represented a valid double.
